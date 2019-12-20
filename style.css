@@ -1,0 +1,124 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(37, 36, 36);
+  /*   display: flex;
+    justify-content: center; */
+    text-decoration: none;
+    
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper-kostnader {
+    padding: 0 0 1rem 0;
+}
+
+.input-section h1 {
+    color: rgb(216, 200, 200);
+}
+
+.input1 {
+    height: 2rem;
+    width: 15rem;
+}
+
+.input2 {
+    height: 2rem;
+    width: 15rem;
+}
+
+.btn1, .btn2 {
+    height: 2.2rem;
+    width: 5rem;
+    margin: .2rem;
+    background-color: rgba(76, 122, 49, 0.637);
+    border-radius: 5%;
+    border-style: none;
+    font-size: 1rem;
+    box-shadow: 1px 1px 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.kostnad-inkomst-section {
+    display: flex; 
+    margin: 0%;
+    padding: 0%;
+/*     justify-items: center;
+    
+    align-items: center;  */
+    font-size: 1.5rem;
+    list-style: none;
+    justify-content: center;
+}
+
+.kostnader-section {
+    background: whitesmoke;
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px black;
+    
+}
+
+.Inkomst-section {
+    background: whitesmoke;
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 5px black;
+}
+
+.resultat-section {
+    background: whitesmoke;
+    width: 50rem;
+    height: 10rem;
+    box-shadow: 0px 2px 5px black;
+    margin: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.result-section-wrapper {
+    display: grid;
+    justify-items: center;
+}
+
+.kostnadTotDiv {
+    color: rgb(24, 39, 16);
+}
+
+@media screen and (max-width: 900px) {
+
+    .kostnad-inkomst-section {
+      
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .resultat-section {
+        width: 22rem;
+        margin: 2rem 0;
+    }
+}
